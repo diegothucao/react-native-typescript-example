@@ -1,5 +1,5 @@
 # react-native-typescript-example
-This is an essential example to build react-native app using typescript
+This is an essential example to build react-native app using Typescript
 
 Step to run
 1. Checkou this respo
