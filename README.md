@@ -3,8 +3,9 @@ This is an essential example to build react-native app using Typescript
 
 Step to run
 1. Checkout this respo
-2. `yarn install`
-3. `react-native run-ios` OR `react-native run-android`
+2. `yarn install` OR `npm install`
+3. `react-native eject`
+4. `react-native run-ios` OR `react-native run-android`
 
 if you see any issue, please do not hesitate to create an issue here or can contact me via email: cao.trung.thu@gmail.com or https://www.linkedin.com/in/diegothucao/
 
