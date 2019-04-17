@@ -1,21 +1,18 @@
 import React from 'react'
-//import debounce from 'lodash.debounce'
 import { TextInput, StyleSheet } from 'react-native'
 
 export interface Props {
-  searchDeals: any
+  searchDeals: any,
+  searchTerm?: string
 }
 
 class SearchBar extends React.Component<Props> {
   state = {
-    searchTerm: '',
+    searchTerm: ''
   }
-
-  //debouncedSearchDeals = debounce(this.props.searchDeals, 300)
   
   handleChange = (searchTerm: string) => {
     this.setState({ searchTerm }, () => {
-     // this.debouncedSearchDeals(this.state.searchTerm)
       this.props.searchDeals(this.state.searchTerm)
     })
   }
@@ -25,6 +22,7 @@ class SearchBar extends React.Component<Props> {
       <TextInput
         placeholder="Search All Deals"
         style={styles.input}
+        defaultValue={this.props.searchTerm}
         onChangeText={this.handleChange}
       />
     )
