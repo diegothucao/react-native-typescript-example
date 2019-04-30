@@ -7,7 +7,7 @@ Step to run
 3. `react-native eject`
 4. `react-native run-ios` OR `react-native run-android`
 
-If you see any issue, please do not hesitate to create an issue here or can contact me via [Email](cao.trung.thu@gmail.com) or [Linkedin](https://www.linkedin.com/in/diegothucao/)
+If you see any issue, please do not hesitate to create an issue here or can contact me via email cao.trung.thu@gmail.com or [Linkedin](https://www.linkedin.com/in/diegothucao/)
 
 Thanks
 
