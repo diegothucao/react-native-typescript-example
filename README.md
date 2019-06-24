@@ -1,5 +1,5 @@
 # React Native and Typescript
-This is an essential example to build React-native app using Typescript
+This is an essential example to build React-native app using Typescript.
 
 Step to run
 1. Clone the [repo](https://github.com/diegothucao/react-native-typescript-example)
